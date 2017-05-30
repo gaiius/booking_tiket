@@ -391,6 +391,23 @@ Purchase: https://wrapbootstrap.com/theme/beyondadmin-adminapp-angularjs-mvc-WB0
                 </div>
                 <!-- /Page Sidebar Header -->
                 <!-- Sidebar Menu -->
-                
+                <ul class="nav sidebar-menu">
+                    <!--Dashboard-->
+                    <li class="active">
+                        <a href="index-2.html">
+                            <i class="menu-icon glyphicon glyphicon-home"></i>
+                            <span class="menu-text"> Dashboard </span>
+                        </a>
+                    </li>
+                    <!--Databoxes-->
+                    <li>
+                        <a href="<?php echo base_url();?>tiket">
+                            <i class="menu-icon glyphicon glyphicon-tasks"></i>
+                            <span class="menu-text"> Order Tiket </span>
+                        </a>
+                    </li>
+				
+                  
+                </ul>
                 <!-- /Sidebar Menu -->
             </div>
